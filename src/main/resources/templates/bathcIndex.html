@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>自动部署系统</title>
-    <link rel="stylesheet" href="../static/plugins/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../static/plugins/layui/css/layui.css" th:src="@{~/js/myJs.js}" media="all">
     <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
     <link rel="stylesheet" href="../static/build/css/app.css" media="all">
     <script src="../static/plugins/layui/layui.js"></script>
@@ -45,22 +45,24 @@
                             </dd>
                         </dl>
                     </li>
-                
-                
-                
-                
                     <li class="layui-nav-item layui-nav-itemed">
-                        <a class="" href="javascript:;"><i class="fa fa-plug" aria-hidden="true"></i><span>渠道管理</span></a>
+                        <a class="" href="javascript:;"><i class="fa fa-plug" aria-hidden="true"></i><span>权限管理</span></a>
                         <dl class="layui-nav-child">
                              <dd>
-                                <a href="javascript:;" kit-target data-options="{url:'',icon:'&#xe6c6;',title:'渠道文件管理',id:'2'}" >
-                                <i class="layui-icon">&#xe628;</i><span>渠道文件管理</span></a>
+                                <a href="javascript:;" kit-target data-options="{url:'',icon:'&#xe6c6;',title:'权限管理',id:'2'}" >
+                                <i class="layui-icon">&#xe628;</i><span>权限管理</span></a>
+                            </dd>
+                                                         <dd>
+                                <a href="javascript:;" kit-target data-options="{url:'',icon:'&#xe6c6;',title:'资源管理',id:'2'}" >
+                                <i class="layui-icon">&#xe628;</i><span>资源管理</span></a>
                             </dd>
                         </dl>
                     </li>
                 </ul>
+                    <!-- 头部区域（可配合layui已有的水平导航） -->
             </div>
         </div>
+        
         <div class="layui-body" id="container">
             <!-- 内容主体区域 -->
             <div style="padding: 15px;">暂无</div>
