@@ -44,7 +44,7 @@
                                     <i class="layui-icon">&#xe6c6;</i><span>渠道管理</span></a>
                             </dd> -->
                              <dd>
-                                <a href="javascript:;" kit-target data-options="{url:'/uploadChannel/upload',icon:'&#xe6c6;',title:'渠道文件管理',id:'2'}" >
+                                <a href="javascript:;" kit-target data-options="{url:'',icon:'&#xe6c6;',title:'渠道文件管理',id:'2'}" >
                                 <i class="layui-icon">&#xe628;</i><span>渠道文件管理</span></a>
                             </dd>
                         </dl>
@@ -100,7 +100,7 @@
             });
         });
         //注销用户
-        function zhuxiao(){
+/*         function zhuxiao(){
         	//获取登陆用户
         	var userName=$("#user_name").text();
      		$.ajax({
@@ -117,20 +117,20 @@
     				window.location.href="/batch/error";
     			}
     		}); 
-        }
-        $(function(){
-        	//获取用户登陆信息
-     		$.ajax({
-     			type:'GET',
-    			url: "/batch/getUser",
-    			success: function (res) {
-    				$("#user_name").text(" 欢迎您："+res)
-    			}/* ,
-    			error:function(){
-    				window.location.href="/batch/error";
-    			} */
-    		}); 
-        })
+        } */
+    //     $(function(){
+     //   	//获取用户登陆信息
+    // 		$.ajax({
+   //  			type:'GET',
+   // 			url: "/batch/getUser",
+    //			success: function (res) {
+    //				$("#user_name").text(" 欢迎您："+res)
+   // 			},
+   // 			error:function(){
+   // 				window.location.href="/batch/error";
+  //  			} 
+   // 		}); 
+  //      }) ;
     </script> 
 </body>
 
