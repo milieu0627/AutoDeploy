@@ -1,0 +1,1494 @@
+"2018-05-22 09:58:46 [main] INFO  com.autoDeploy.AutoDeployApplication - Starting AutoDeployApplication on DESKTOP-SMVV3RB with PID 13288 (C:\Users\mills\eclipse-workspace\AutoDeploy\target\classes started by mills in C:\Users\mills\eclipse-workspace\AutoDeploy)
+""2018-05-22 09:58:46 [main] INFO  com.autoDeploy.AutoDeployApplication - No active profile set, falling back to default profiles: default
+""2018-05-22 09:58:46 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55cb6996: startup date [Tue May 22 09:58:46 CST 2018]; root of context hierarchy
+""2018-05-22 09:58:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b652853] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-05-22 09:58:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9010 (http)
+""2018-05-22 09:58:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-05-22 09:58:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+""2018-05-22 09:58:48 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;";C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;";G:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\mills\AppData\Local\Microsoft\WindowsApps;C:\Users\mills\AppData\Roaming\npm;C:\Users\mills\Desktop;;.]
+""2018-05-22 09:58:49 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-05-22 09:58:49 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2255 ms
+""2018-05-22 09:58:49 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+""2018-05-22 09:58:49 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-05-22 09:58:49 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-05-22 09:58:49 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-05-22 09:58:49 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-05-22 09:58:49 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+""2018-05-22 09:58:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-05-22 09:58:49 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-05-22 09:58:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2018-05-22 09:58:49 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-05-22 09:58:49 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-05-22 09:58:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2018-05-22 09:58:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2018-05-22 09:58:50 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2018-05-22 09:58:50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55cb6996: startup date [Tue May 22 09:58:46 CST 2018]; root of context hierarchy
+""2018-05-22 09:58:51 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/add],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toAddUserListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/restPWD/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toRestPassWordPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.deleteAdminUserByParams(java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.getUserListByParams(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.addAdminUserModel(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/edit/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toEditUserPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAddAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAddAuthority(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/editAddAuthorityPage],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toEditAddAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toIndex],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toIndex(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/tologin]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toLoginPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/main],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toMain(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toUserList],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toUserList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:51 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger/acount],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerAcountPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2018-05-22 09:58:52 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 09:58:52 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 09:58:52 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 09:58:52 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalException
+""2018-05-22 09:58:52 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-05-22 09:58:52 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2018-05-22 09:58:52 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2018-05-22 09:58:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9010 (http) with context path ''
+""2018-05-22 09:58:52 [main] INFO  com.autoDeploy.AutoDeployApplication - Started AutoDeployApplication in 6.352 seconds (JVM running for 6.928)
+""2018-05-22 10:13:27 [http-nio-9010-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-05-22 10:13:27 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2018-05-22 10:13:27 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 69 ms
+""2018-05-22 10:13:29 [http-nio-9010-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/build/css/nprogress.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:13:29 [http-nio-9010-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/base/build/css/message.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:27:17 [main] INFO  com.autoDeploy.AutoDeployApplication - Starting AutoDeployApplication on DESKTOP-SMVV3RB with PID 1956 (C:\Users\mills\eclipse-workspace\AutoDeploy\target\classes started by mills in C:\Users\mills\eclipse-workspace\AutoDeploy)
+""2018-05-22 10:27:17 [main] INFO  com.autoDeploy.AutoDeployApplication - No active profile set, falling back to default profiles: default
+""2018-05-22 10:27:17 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710636b0: startup date [Tue May 22 10:27:17 CST 2018]; root of context hierarchy
+""2018-05-22 10:27:18 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ab148a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-05-22 10:27:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9010 (http)
+""2018-05-22 10:27:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-05-22 10:27:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+""2018-05-22 10:27:19 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;";C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;";G:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\mills\AppData\Local\Microsoft\WindowsApps;C:\Users\mills\AppData\Roaming\npm;C:\Users\mills\Desktop;;.]
+""2018-05-22 10:27:19 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-05-22 10:27:19 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2736 ms
+""2018-05-22 10:27:20 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+""2018-05-22 10:27:20 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-05-22 10:27:20 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-05-22 10:27:20 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-05-22 10:27:20 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-05-22 10:27:20 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+""2018-05-22 10:27:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-05-22 10:27:20 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-05-22 10:27:20 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2018-05-22 10:27:20 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-05-22 10:27:20 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-05-22 10:27:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2018-05-22 10:27:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2018-05-22 10:27:21 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2018-05-22 10:27:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@710636b0: startup date [Tue May 22 10:27:17 CST 2018]; root of context hierarchy
+""2018-05-22 10:27:22 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.addAdminUserModel(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/add],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toAddUserListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.deleteAdminUserByParams(java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/restPWD/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toRestPassWordPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.getUserListByParams(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/edit/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toEditUserPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/editAddAuthorityPage],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toEditAddAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAddAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAddAuthority(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toIndex],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toIndex(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/main],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toMain(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toUserList],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toUserList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/tologin]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toLoginPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger/acount],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerAcountPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/projectManager/toProjectListPage]}" onto public java.lang.String com.autoDeploy.controller.projectManagerController.toProjectListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/server/toServerListPage]}" onto java.lang.String com.autoDeploy.controller.serverManagerController.toServerListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:27:22 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:27:23 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalException
+""2018-05-22 10:27:23 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-05-22 10:27:23 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2018-05-22 10:27:23 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2018-05-22 10:27:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9010 (http) with context path ''
+""2018-05-22 10:27:23 [main] INFO  com.autoDeploy.AutoDeployApplication - Started AutoDeployApplication in 6.99 seconds (JVM running for 7.569)
+""2018-05-22 10:27:32 [http-nio-9010-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-05-22 10:27:32 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2018-05-22 10:27:33 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+""2018-05-22 10:27:34 [http-nio-9010-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/build/css/nprogress.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:27:34 [http-nio-9010-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/base/build/css/message.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:27:41 [http-nio-9010-exec-8] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-9010-exec-8] Exception processing template "/project/ProjectManager": An error happened during template parsing (template: "class path resource [templates//project/ProjectManager.html]")
+"org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//project/ProjectManager.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "
+                {field: 'proId', title: '序号', width:'10%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'proName', title: '项目名称', width: '12.5%', align: 'center'}
+                ,{field: 'proEve', title: '平台名称', width:'12.5%', align: 'center'}
+                ,{field: 'proStatus', title: '项目状态', width:'10%', align: 'center'}
+                ,{field: 'proPerson', title: '项目负责人', width: '10%', align: 'center'}
+                ,{field: 'proPersonPhone', title: '项目负责人电话', width: '15%', align: 'center'}
+                ,{field: 'proTips', title: '备注', width: '20%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '10%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/project/ProjectManager" - line 76, col 22)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 55 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'proId', title: '序号', width:'10%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'proName', title: '项目名称', width: '12.5%', align: 'center'}
+                ,{field: 'proEve', title: '平台名称', width:'12.5%', align: 'center'}
+                ,{field: 'proStatus', title: '项目状态', width:'10%', align: 'center'}
+                ,{field: 'proPerson', title: '项目负责人', width: '10%', align: 'center'}
+                ,{field: 'proPersonPhone', title: '项目负责人电话', width: '15%', align: 'center'}
+                ,{field: 'proTips', title: '备注', width: '20%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '10%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/project/ProjectManager" - line 76, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 57 common frames omitted
+"2018-05-22 10:27:41 [http-nio-9010-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//project/ProjectManager.html]")] with root cause
+"org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'proId', title: '序号', width:'10%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'proName', title: '项目名称', width: '12.5%', align: 'center'}
+                ,{field: 'proEve', title: '平台名称', width:'12.5%', align: 'center'}
+                ,{field: 'proStatus', title: '项目状态', width:'10%', align: 'center'}
+                ,{field: 'proPerson', title: '项目负责人', width: '10%', align: 'center'}
+                ,{field: 'proPersonPhone', title: '项目负责人电话', width: '15%', align: 'center'}
+                ,{field: 'proTips', title: '备注', width: '20%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '10%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/project/ProjectManager" - line 76, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+"2018-05-22 10:27:41 [http-nio-9010-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/batch/errorInfo] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:29:20 [main] INFO  com.autoDeploy.AutoDeployApplication - Starting AutoDeployApplication on DESKTOP-SMVV3RB with PID 18304 (C:\Users\mills\eclipse-workspace\AutoDeploy\target\classes started by mills in C:\Users\mills\eclipse-workspace\AutoDeploy)
+""2018-05-22 10:29:20 [main] INFO  com.autoDeploy.AutoDeployApplication - No active profile set, falling back to default profiles: default
+""2018-05-22 10:29:20 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4007f65e: startup date [Tue May 22 10:29:20 CST 2018]; root of context hierarchy
+""2018-05-22 10:29:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0ef3fc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-05-22 10:29:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9010 (http)
+""2018-05-22 10:29:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-05-22 10:29:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+""2018-05-22 10:29:22 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;";C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;";G:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\mills\AppData\Local\Microsoft\WindowsApps;C:\Users\mills\AppData\Roaming\npm;C:\Users\mills\Desktop;;.]
+""2018-05-22 10:29:22 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-05-22 10:29:22 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2488 ms
+""2018-05-22 10:29:23 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+""2018-05-22 10:29:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-05-22 10:29:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-05-22 10:29:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-05-22 10:29:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-05-22 10:29:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+""2018-05-22 10:29:23 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-05-22 10:29:23 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-05-22 10:29:23 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2018-05-22 10:29:23 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-05-22 10:29:23 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-05-22 10:29:23 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2018-05-22 10:29:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2018-05-22 10:29:24 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2018-05-22 10:29:24 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4007f65e: startup date [Tue May 22 10:29:20 CST 2018]; root of context hierarchy
+""2018-05-22 10:29:25 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/restPWD/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toRestPassWordPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.getUserListByParams(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.deleteAdminUserByParams(java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/add],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toAddUserListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.addAdminUserModel(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/edit/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toEditUserPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/editAddAuthorityPage],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toEditAddAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAddAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAddAuthority(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toIndex],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toIndex(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/tologin]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toLoginPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/main],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toMain(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toUserList],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toUserList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger/acount],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerAcountPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/projectManager/toProjectListPage]}" onto public java.lang.String com.autoDeploy.controller.projectManagerController.toProjectListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/server/toServerListPage]}" onto java.lang.String com.autoDeploy.controller.serverManagerController.toServerListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:29:25 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalException
+""2018-05-22 10:29:25 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2018-05-22 10:29:26 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-05-22 10:29:26 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2018-05-22 10:29:26 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2018-05-22 10:29:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9010 (http) with context path ''
+""2018-05-22 10:29:26 [main] INFO  com.autoDeploy.AutoDeployApplication - Started AutoDeployApplication in 6.466 seconds (JVM running for 7.02)
+""2018-05-22 10:29:31 [http-nio-9010-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-05-22 10:29:31 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2018-05-22 10:29:31 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+""2018-05-22 10:29:32 [http-nio-9010-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/build/css/nprogress.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:29:32 [http-nio-9010-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/base/build/css/message.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:29:40 [http-nio-9010-exec-2] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-9010-exec-2] Exception processing template "/project/ProjectManager": An error happened during template parsing (template: "class path resource [templates//project/ProjectManager.html]")
+"org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//project/ProjectManager.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "
+                {field: 'proId', title: '序号', width:'10%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'proName', title: '项目名称', width: '12.5%', align: 'center'}
+                ,{field: 'proEve', title: '平台名称', width:'12.5%', align: 'center'}
+                ,{field: 'proStatus', title: '项目状态', width:'10%', align: 'center'}
+                ,{field: 'proPerson', title: '项目负责人', width: '10%', align: 'center'}
+                ,{field: 'proPersonPhone', title: '项目负责人电话', width: '15%', align: 'center'}
+                ,{field: 'proTips', title: '备注', width: '20%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '10%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/project/ProjectManager" - line 76, col 22)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 55 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'proId', title: '序号', width:'10%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'proName', title: '项目名称', width: '12.5%', align: 'center'}
+                ,{field: 'proEve', title: '平台名称', width:'12.5%', align: 'center'}
+                ,{field: 'proStatus', title: '项目状态', width:'10%', align: 'center'}
+                ,{field: 'proPerson', title: '项目负责人', width: '10%', align: 'center'}
+                ,{field: 'proPersonPhone', title: '项目负责人电话', width: '15%', align: 'center'}
+                ,{field: 'proTips', title: '备注', width: '20%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '10%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/project/ProjectManager" - line 76, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 57 common frames omitted
+"2018-05-22 10:29:40 [http-nio-9010-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//project/ProjectManager.html]")] with root cause
+"org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'proId', title: '序号', width:'10%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'proName', title: '项目名称', width: '12.5%', align: 'center'}
+                ,{field: 'proEve', title: '平台名称', width:'12.5%', align: 'center'}
+                ,{field: 'proStatus', title: '项目状态', width:'10%', align: 'center'}
+                ,{field: 'proPerson', title: '项目负责人', width: '10%', align: 'center'}
+                ,{field: 'proPersonPhone', title: '项目负责人电话', width: '15%', align: 'center'}
+                ,{field: 'proTips', title: '备注', width: '20%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '10%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/project/ProjectManager" - line 76, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+"2018-05-22 10:29:40 [http-nio-9010-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/batch/errorInfo] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:30:55 [http-nio-9010-exec-4] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-9010-exec-4] Exception processing template "/server/ServerManager": An error happened during template parsing (template: "class path resource [templates//server/ServerManager.html]")
+"org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//server/ServerManager.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "
+                {field: 'serId', title: '序号', width:'8%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'serName', title: '服务器名称', width: '10%', align: 'center'}
+                ,{field: 'serBelongPro', title: '所属项目', width:'10%', align: 'center'}
+                ,{field: 'serStatus', title: '服务器状态', width:'8%', align: 'center'}
+                ,{field: 'serType', title: '服务器类型', width: '8%', align: 'center'}
+                ,{field: 'serInIP', title: '内网IP', width: '10%', align: 'center'}
+                ,{field: 'serExIP', title: '外网IP', width: '10%', align: 'center'}
+                ,{field: 'serSSHKey', title: 'SSH Key', width: '10%', align: 'center'}
+                ,{field: 'serProvider', title: '服务商', width: '8%', align: 'center'}
+                ,{field: 'serTips', title: '备注', width: '11%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '8%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/server/ServerManager" - line 83, col 22)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 55 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'serId', title: '序号', width:'8%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'serName', title: '服务器名称', width: '10%', align: 'center'}
+                ,{field: 'serBelongPro', title: '所属项目', width:'10%', align: 'center'}
+                ,{field: 'serStatus', title: '服务器状态', width:'8%', align: 'center'}
+                ,{field: 'serType', title: '服务器类型', width: '8%', align: 'center'}
+                ,{field: 'serInIP', title: '内网IP', width: '10%', align: 'center'}
+                ,{field: 'serExIP', title: '外网IP', width: '10%', align: 'center'}
+                ,{field: 'serSSHKey', title: 'SSH Key', width: '10%', align: 'center'}
+                ,{field: 'serProvider', title: '服务商', width: '8%', align: 'center'}
+                ,{field: 'serTips', title: '备注', width: '11%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '8%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/server/ServerManager" - line 83, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 57 common frames omitted
+"2018-05-22 10:30:55 [http-nio-9010-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//server/ServerManager.html]")] with root cause
+"org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'serId', title: '序号', width:'8%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'serName', title: '服务器名称', width: '10%', align: 'center'}
+                ,{field: 'serBelongPro', title: '所属项目', width:'10%', align: 'center'}
+                ,{field: 'serStatus', title: '服务器状态', width:'8%', align: 'center'}
+                ,{field: 'serType', title: '服务器类型', width: '8%', align: 'center'}
+                ,{field: 'serInIP', title: '内网IP', width: '10%', align: 'center'}
+                ,{field: 'serExIP', title: '外网IP', width: '10%', align: 'center'}
+                ,{field: 'serSSHKey', title: 'SSH Key', width: '10%', align: 'center'}
+                ,{field: 'serProvider', title: '服务商', width: '8%', align: 'center'}
+                ,{field: 'serTips', title: '备注', width: '11%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '8%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/server/ServerManager" - line 83, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+"2018-05-22 10:30:55 [http-nio-9010-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/batch/errorInfo] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:31:31 [http-nio-9010-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-9010-exec-1] Exception processing template "/server/ServerManager": An error happened during template parsing (template: "class path resource [templates//server/ServerManager.html]")
+"org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//server/ServerManager.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "
+                {field: 'serId', title: '序号', width:'8%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'serName', title: '服务器名称', width: '10%', align: 'center'}
+                ,{field: 'serBelongPro', title: '所属项目', width:'10%', align: 'center'}
+                ,{field: 'serStatus', title: '服务器状态', width:'8%', align: 'center'}
+                ,{field: 'serType', title: '服务器类型', width: '8%', align: 'center'}
+                ,{field: 'serInIP', title: '内网IP', width: '10%', align: 'center'}
+                ,{field: 'serExIP', title: '外网IP', width: '10%', align: 'center'}
+                ,{field: 'serSSHKey', title: 'SSH Key', width: '10%', align: 'center'}
+                ,{field: 'serProvider', title: '服务商', width: '8%', align: 'center'}
+                ,{field: 'serTips', title: '备注', width: '11%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '8%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/server/ServerManager" - line 83, col 22)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 55 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'serId', title: '序号', width:'8%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'serName', title: '服务器名称', width: '10%', align: 'center'}
+                ,{field: 'serBelongPro', title: '所属项目', width:'10%', align: 'center'}
+                ,{field: 'serStatus', title: '服务器状态', width:'8%', align: 'center'}
+                ,{field: 'serType', title: '服务器类型', width: '8%', align: 'center'}
+                ,{field: 'serInIP', title: '内网IP', width: '10%', align: 'center'}
+                ,{field: 'serExIP', title: '外网IP', width: '10%', align: 'center'}
+                ,{field: 'serSSHKey', title: 'SSH Key', width: '10%', align: 'center'}
+                ,{field: 'serProvider', title: '服务商', width: '8%', align: 'center'}
+                ,{field: 'serTips', title: '备注', width: '11%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '8%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/server/ServerManager" - line 83, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 57 common frames omitted
+"2018-05-22 10:31:31 [http-nio-9010-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//server/ServerManager.html]")] with root cause
+"org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'serId', title: '序号', width:'8%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'serName', title: '服务器名称', width: '10%', align: 'center'}
+                ,{field: 'serBelongPro', title: '所属项目', width:'10%', align: 'center'}
+                ,{field: 'serStatus', title: '服务器状态', width:'8%', align: 'center'}
+                ,{field: 'serType', title: '服务器类型', width: '8%', align: 'center'}
+                ,{field: 'serInIP', title: '内网IP', width: '10%', align: 'center'}
+                ,{field: 'serExIP', title: '外网IP', width: '10%', align: 'center'}
+                ,{field: 'serSSHKey', title: 'SSH Key', width: '10%', align: 'center'}
+                ,{field: 'serProvider', title: '服务商', width: '8%', align: 'center'}
+                ,{field: 'serTips', title: '备注', width: '11%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '8%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/server/ServerManager" - line 83, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+"2018-05-22 10:31:31 [http-nio-9010-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/batch/errorInfo] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:32:50 [main] INFO  com.autoDeploy.AutoDeployApplication - Starting AutoDeployApplication on DESKTOP-SMVV3RB with PID 3428 (C:\Users\mills\eclipse-workspace\AutoDeploy\target\classes started by mills in C:\Users\mills\eclipse-workspace\AutoDeploy)
+""2018-05-22 10:32:50 [main] INFO  com.autoDeploy.AutoDeployApplication - No active profile set, falling back to default profiles: default
+""2018-05-22 10:32:50 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b978d10: startup date [Tue May 22 10:32:50 CST 2018]; root of context hierarchy
+""2018-05-22 10:32:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b7421f80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-05-22 10:32:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9010 (http)
+""2018-05-22 10:32:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-05-22 10:32:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+""2018-05-22 10:32:52 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;";C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;";G:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\mills\AppData\Local\Microsoft\WindowsApps;C:\Users\mills\AppData\Roaming\npm;C:\Users\mills\Desktop;;.]
+""2018-05-22 10:32:52 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-05-22 10:32:52 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2305 ms
+""2018-05-22 10:32:52 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+""2018-05-22 10:32:52 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-05-22 10:32:52 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-05-22 10:32:52 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-05-22 10:32:52 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-05-22 10:32:52 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+""2018-05-22 10:32:53 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-05-22 10:32:53 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-05-22 10:32:53 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2018-05-22 10:32:53 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-05-22 10:32:53 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-05-22 10:32:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2018-05-22 10:32:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2018-05-22 10:32:53 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2018-05-22 10:32:54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-05-22 10:32:54 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b978d10: startup date [Tue May 22 10:32:50 CST 2018]; root of context hierarchy
+""2018-05-22 10:32:55 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.deleteAdminUserByParams(java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/restPWD/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toRestPassWordPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.getUserListByParams(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/add],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toAddUserListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.addAdminUserModel(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/edit/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toEditUserPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAddAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAddAuthority(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/editAddAuthorityPage],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toEditAddAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toIndex],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toIndex(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/main],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toMain(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toUserList],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toUserList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/tologin]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toLoginPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger/acount],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerAcountPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/projectManager/toProjectListPage]}" onto public java.lang.String com.autoDeploy.controller.projectManagerController.toProjectListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/server/toServerListPage]}" onto java.lang.String com.autoDeploy.controller.serverManagerController.toServerListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:32:55 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalException
+""2018-05-22 10:32:55 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2018-05-22 10:32:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-05-22 10:32:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2018-05-22 10:32:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2018-05-22 10:32:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9010 (http) with context path ''
+""2018-05-22 10:32:56 [main] INFO  com.autoDeploy.AutoDeployApplication - Started AutoDeployApplication in 6.506 seconds (JVM running for 7.062)
+""2018-05-22 10:33:00 [http-nio-9010-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-05-22 10:33:00 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2018-05-22 10:33:00 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 65 ms
+""2018-05-22 10:33:01 [http-nio-9010-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/build/css/nprogress.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:33:01 [http-nio-9010-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/base/build/css/message.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:33:08 [http-nio-9010-exec-8] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-9010-exec-8] Exception processing template "/project/ProjectManager": An error happened during template parsing (template: "class path resource [templates//project/ProjectManager.html]")
+"org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//project/ProjectManager.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "
+                {field: 'proId', title: '序号', width:'10%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'proName', title: '项目名称', width: '12.5%', align: 'center'}
+                ,{field: 'proEve', title: '平台名称', width:'12.5%', align: 'center'}
+                ,{field: 'proStatus', title: '项目状态', width:'10%', align: 'center'}
+                ,{field: 'proPerson', title: '项目负责人', width: '10%', align: 'center'}
+                ,{field: 'proPersonPhone', title: '项目负责人电话', width: '15%', align: 'center'}
+                ,{field: 'proTips', title: '备注', width: '20%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '10%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/project/ProjectManager" - line 76, col 22)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 55 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'proId', title: '序号', width:'10%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'proName', title: '项目名称', width: '12.5%', align: 'center'}
+                ,{field: 'proEve', title: '平台名称', width:'12.5%', align: 'center'}
+                ,{field: 'proStatus', title: '项目状态', width:'10%', align: 'center'}
+                ,{field: 'proPerson', title: '项目负责人', width: '10%', align: 'center'}
+                ,{field: 'proPersonPhone', title: '项目负责人电话', width: '15%', align: 'center'}
+                ,{field: 'proTips', title: '备注', width: '20%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '10%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/project/ProjectManager" - line 76, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 57 common frames omitted
+"2018-05-22 10:33:08 [http-nio-9010-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//project/ProjectManager.html]")] with root cause
+"org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'proId', title: '序号', width:'10%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'proName', title: '项目名称', width: '12.5%', align: 'center'}
+                ,{field: 'proEve', title: '平台名称', width:'12.5%', align: 'center'}
+                ,{field: 'proStatus', title: '项目状态', width:'10%', align: 'center'}
+                ,{field: 'proPerson', title: '项目负责人', width: '10%', align: 'center'}
+                ,{field: 'proPersonPhone', title: '项目负责人电话', width: '15%', align: 'center'}
+                ,{field: 'proTips', title: '备注', width: '20%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '10%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/project/ProjectManager" - line 76, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+"2018-05-22 10:33:08 [http-nio-9010-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/batch/errorInfo] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:34:37 [http-nio-9010-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/build/css/nprogress.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:34:37 [http-nio-9010-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/base/build/css/message.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:34:41 [http-nio-9010-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/js/layui/layui.js] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:34:41 [http-nio-9010-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/css/projectui.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:34:41 [http-nio-9010-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/js/layui/css/layui.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:34:41 [http-nio-9010-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/js/vue.js] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:34:41 [http-nio-9010-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/css/projectui.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:34:42 [http-nio-9010-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/js/vue.js] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:37:58 [http-nio-9010-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/build/css/nprogress.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:37:58 [http-nio-9010-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/base/build/css/message.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:38:00 [http-nio-9010-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/css/projectui.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:38:00 [http-nio-9010-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/api/v1/pro] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:38:02 [http-nio-9010-exec-5] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-9010-exec-5] Exception processing template "/server/ServerManager": An error happened during template parsing (template: "class path resource [templates//server/ServerManager.html]")
+"org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//server/ServerManager.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "
+                {field: 'serId', title: '序号', width:'8%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'serName', title: '服务器名称', width: '10%', align: 'center'}
+                ,{field: 'serBelongPro', title: '所属项目', width:'10%', align: 'center'}
+                ,{field: 'serStatus', title: '服务器状态', width:'8%', align: 'center'}
+                ,{field: 'serType', title: '服务器类型', width: '8%', align: 'center'}
+                ,{field: 'serInIP', title: '内网IP', width: '10%', align: 'center'}
+                ,{field: 'serExIP', title: '外网IP', width: '10%', align: 'center'}
+                ,{field: 'serSSHKey', title: 'SSH Key', width: '10%', align: 'center'}
+                ,{field: 'serProvider', title: '服务商', width: '8%', align: 'center'}
+                ,{field: 'serTips', title: '备注', width: '11%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '8%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/server/ServerManager" - line 83, col 22)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 55 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'serId', title: '序号', width:'8%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'serName', title: '服务器名称', width: '10%', align: 'center'}
+                ,{field: 'serBelongPro', title: '所属项目', width:'10%', align: 'center'}
+                ,{field: 'serStatus', title: '服务器状态', width:'8%', align: 'center'}
+                ,{field: 'serType', title: '服务器类型', width: '8%', align: 'center'}
+                ,{field: 'serInIP', title: '内网IP', width: '10%', align: 'center'}
+                ,{field: 'serExIP', title: '外网IP', width: '10%', align: 'center'}
+                ,{field: 'serSSHKey', title: 'SSH Key', width: '10%', align: 'center'}
+                ,{field: 'serProvider', title: '服务商', width: '8%', align: 'center'}
+                ,{field: 'serTips', title: '备注', width: '11%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '8%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/server/ServerManager" - line 83, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 57 common frames omitted
+"2018-05-22 10:38:02 [http-nio-9010-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//server/ServerManager.html]")] with root cause
+"org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "
+                {field: 'serId', title: '序号', width:'8%', sort: true, fixed: 'left',align: 'center'}
+                ,{field: 'serName', title: '服务器名称', width: '10%', align: 'center'}
+                ,{field: 'serBelongPro', title: '所属项目', width:'10%', align: 'center'}
+                ,{field: 'serStatus', title: '服务器状态', width:'8%', align: 'center'}
+                ,{field: 'serType', title: '服务器类型', width: '8%', align: 'center'}
+                ,{field: 'serInIP', title: '内网IP', width: '10%', align: 'center'}
+                ,{field: 'serExIP', title: '外网IP', width: '10%', align: 'center'}
+                ,{field: 'serSSHKey', title: 'SSH Key', width: '10%', align: 'center'}
+                ,{field: 'serProvider', title: '服务商', width: '8%', align: 'center'}
+                ,{field: 'serTips', title: '备注', width: '11%', align: 'center'}
+                ,{field: 'personAuthority', title: '修改', width: '8%', align: 'center',toolbar:'#toolbar'}
+            " (template: "/server/ServerManager" - line 83, col 22)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:103)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.performInlining(OutputExpressionInlinePreProcessorHandler.java:440)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleText(OutputExpressionInlinePreProcessorHandler.java:146)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleText(InlinedOutputExpressionMarkupHandler.java:80)
+	at org.attoparser.HtmlMarkupHandler.handleText(HtmlMarkupHandler.java:208)
+	at org.attoparser.AbstractChainedMarkupHandler.handleText(AbstractChainedMarkupHandler.java:203)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:557)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:354)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:187)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+"2018-05-22 10:38:02 [http-nio-9010-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/batch/errorInfo] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:39:28 [main] INFO  com.autoDeploy.AutoDeployApplication - Starting AutoDeployApplication on DESKTOP-SMVV3RB with PID 1968 (C:\Users\mills\eclipse-workspace\AutoDeploy\target\classes started by mills in C:\Users\mills\eclipse-workspace\AutoDeploy)
+""2018-05-22 10:39:28 [main] INFO  com.autoDeploy.AutoDeployApplication - No active profile set, falling back to default profiles: default
+""2018-05-22 10:39:28 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ab4bc72: startup date [Tue May 22 10:39:28 CST 2018]; root of context hierarchy
+""2018-05-22 10:39:29 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c38bc41b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-05-22 10:39:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9010 (http)
+""2018-05-22 10:39:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-05-22 10:39:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+""2018-05-22 10:39:30 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;";C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;";G:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\mills\AppData\Local\Microsoft\WindowsApps;C:\Users\mills\AppData\Roaming\npm;C:\Users\mills\Desktop;;.]
+""2018-05-22 10:39:30 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-05-22 10:39:30 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2314 ms
+""2018-05-22 10:39:31 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+""2018-05-22 10:39:31 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-05-22 10:39:31 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-05-22 10:39:31 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-05-22 10:39:31 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-05-22 10:39:31 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+""2018-05-22 10:39:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-05-22 10:39:31 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-05-22 10:39:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+""2018-05-22 10:39:31 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-05-22 10:39:31 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-05-22 10:39:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2018-05-22 10:39:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2018-05-22 10:39:32 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2018-05-22 10:39:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2ab4bc72: startup date [Tue May 22 10:39:28 CST 2018]; root of context hierarchy
+""2018-05-22 10:39:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.getUserListByParams(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/add],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toAddUserListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/restPWD/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toRestPassWordPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.deleteAdminUserByParams(java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.autoDeploy.util.BaseResultUtil> com.autoDeploy.controller.adminUserController.addAdminUserModel(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/autoDeploy/user/edit/page],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.adminUserController.toEditUserPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/editAddAuthorityPage],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toEditAddAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAddAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAddAuthority(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authority/toAuthority],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.authorityManagerController.toAuthorityPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toIndex],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toIndex(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/tologin]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toLoginPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/main],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toMain(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/base/toUserList],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.basePageController.toUserList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger/acount],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerAcountPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logger/logger],methods=[GET]}" onto public java.lang.String com.autoDeploy.controller.loggerController.toLoggerListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/projectManager/toProjectListPage]}" onto public java.lang.String com.autoDeploy.controller.projectManagerController.toProjectListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/server/toServerListPage]}" onto java.lang.String com.autoDeploy.controller.serverManagerController.toServerListPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-22 10:39:33 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalException
+""2018-05-22 10:39:33 [main] WARN  o.t.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2018-05-22 10:39:34 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-05-22 10:39:34 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2018-05-22 10:39:34 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2018-05-22 10:39:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9010 (http) with context path ''
+""2018-05-22 10:39:34 [main] INFO  com.autoDeploy.AutoDeployApplication - Started AutoDeployApplication in 6.521 seconds (JVM running for 7.098)
+""2018-05-22 10:39:36 [http-nio-9010-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-05-22 10:39:36 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+""2018-05-22 10:39:36 [http-nio-9010-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+""2018-05-22 10:39:37 [http-nio-9010-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/build/css/nprogress.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:39:38 [http-nio-9010-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/base/build/css/message.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:39:40 [http-nio-9010-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/pro/details] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:39:41 [http-nio-9010-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/css/projectui.css] in DispatcherServlet with name 'dispatcherServlet'
+""2018-05-22 10:39:41 [http-nio-9010-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/api/v1/pro] in DispatcherServlet with name 'dispatcherServlet'
+"

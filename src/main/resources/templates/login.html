@@ -10,13 +10,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>登录</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-<script src="/static/js/jquery-2.1.1.min.js" charset="utf-8"></script>
-<link rel="stylesheet" href="/static/css/login_bootstrap.css">
-<link href="/static/css/login_style.css" type="text/css" rel="stylesheet">
+<script src="../static/js/jquery-2.1.1.min.js" charset="utf-8"></script>
+<link rel="stylesheet" href="../static/css/login_bootstrap.css">
+<link href="../static/css/login_style.css" type="text/css" rel="stylesheet">
 <!-- 校验框架 -->
-<script src="/static/js/validate/jquery.validate.min.js" charset="utf-8"></script>
-<script src="/static/js/validate/jquery.validate.js" charset="utf-8"></script>
-<script src="/static/js/validate/messages_zh.js" charset="utf-8"></script>
+<script src="../static/js/validate/jquery.validate.min.js" charset="utf-8"></script>
+<script src="../static/js/validate/jquery.validate.js" charset="utf-8"></script>
+<script src="../static/js/validate/messages_zh.js" charset="utf-8"></script>
 <style>
 	body{color:#fff; font-family:"微软雅黑"; font-size:14px;}
 	.wrap1{position:absolute; top:0; right:0; bottom:0; left:0; margin:auto }/*把整个屏幕真正撑开--而且能自己实现居中*/
@@ -63,19 +63,6 @@
 </body>
 <script src="/static/js/canvas-nest.js" charset="utf-8"></script>
 <script type="text/javascript">
-document.oncontextmenu = function () {
-	 alert("禁止右键查看");
-	 return false; 
-	 
-};
-document.onkeydown = function () {
- if (window.event && window.event.keyCode == 123) {
-	alert("禁止调试");
-     event.keyCode = 0;
-     event.returnValue = false;
-     return false;
- }
-};
 $(function(){
 	//校验表单
 	if ($("form").valid()) {
